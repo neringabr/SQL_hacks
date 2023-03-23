@@ -1,0 +1,18 @@
+1. What is TRY, CATCH and Raiserror
+https://www.c-sharpcorner.com/blogs/how-to-use-trycatch-inside-sp
+-- 
+Main takeaway:The TRY….CATCH blocks and RAISERROR () can make the developers' lives easier and painless.
+
+2. How to implement rollback in nested procedure:
+https://stackoverflow.com/questions/24779469/implement-rollback-in-nested-stored-procedure
+--
+Main takeaway: rollback rolls back to the outermost transaction, not just the current transaction within a transaction
+
+3. Understanding SQL Server Transaction Savepoints
+https://www.mssqltips.com/sqlservertip/5538/understanding-sql-server-transaction-savepoints/
+Main takeaway: you can roll back part of the transaction instead of the entire transaction
+
+4. What to do is nested transaction can't be rolled back:
+https://stackoverflow.com/questions/35293934/nested-transaction-cant-be-rolled-back
+-- 
+Main takeaway: you do not have to rollback each transaction (savepoint) separately.
